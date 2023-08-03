@@ -51,6 +51,7 @@ main{
     justify-content: space-between;
     padding: 10%;
     flex-grow: 1;
+    text-align: center;
 
 }
 .results h2{
@@ -82,12 +83,14 @@ main{
 
 .result-comment{
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    display: block;
 }
 .result-comment + p{
-   width: 13rem;
+   width: 11rem;
    color: var(--neutral-light-lavendar);
-   font-size: .9rem;
+   font-size: .8rem;
    word-wrap: break-word;
    text-align: center;
 }
