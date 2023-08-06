@@ -35,6 +35,7 @@ main{
 
 }
 
+
 .attribution{
     position: absolute;
     bottom: 0;
@@ -119,7 +120,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0px;
+    margin: 15px 0px;
     border-radius: 5px;
     padding: .5rem 1rem;
     font-size: .9rem;
@@ -185,4 +186,32 @@ button:focus-visible{
     /* background-color: hsl(var(--gradiant-violet-blue-circle)); */
     background-image: linear-gradient( hsl(var(--gradiant-light-slate-blue)), hsl(var(--gradiant-light-royal-blue)))
     
+}
+
+@media (max-width: 600px) {
+  main{
+    display: grid;
+    place-items: start;
+    min-height: 100vh;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow: none; 
+    border-radius: 0px 0px 25px 25px;
+    min-height: 400px;
+    min-width: 100%;
+    
+  }
+  .results{
+  border-radius: 0px 0px 25px 25px;
+  gap:15px
+
+}
+.attribution{
+  position: relative;
+  font-size: .7rem;
+}
+
 }
